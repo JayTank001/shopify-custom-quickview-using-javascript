@@ -1,0 +1,25 @@
+<style>
+  .quickview_popup.active{
+      position: fixed;
+      z-index: 9;
+      width: 80%;
+      background: #fff;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      overflow-y: scroll;
+      max-height: 400px;
+      padding: 20px;
+  }
+  .quickview_popup .product__description{
+    display:none;
+  }
+  .quickview_pro_inner .product-main{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 40px;
+  }
+  .quickview_pro_inner .product-main img{
+    width:100%;
+  }
+</style>
