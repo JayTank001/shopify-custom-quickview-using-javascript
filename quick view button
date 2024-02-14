@@ -1,0 +1,5 @@
+// you can add quick view button where you want to add this quick view functionality
+
+<button class="custom-quickview" data-handle="{{ card_product.handle }}" style="position: relative;z-index: 3;">
+    Quick view
+</button>
